@@ -14,6 +14,10 @@ section {
   padding: 45px 0;
 }
 
+p {
+  line-height: 23px;
+}
+
 /* Heading */
 
 header {
@@ -59,6 +63,36 @@ a:hover {
 a:hover,
 a:active {
   color: #d4b44c;
+}
+
+/* button links */
+
+.btn-link {
+  display: inline-block;
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  color: #5f29a3;
+  text-decoration: none;
+}
+
+.buy-nfts {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.more-info {
+  background-color: #f0e0ff;
+}
+
+.about-us {
+  background-color: whitesmoke;
 }
 
 /* section containers */
