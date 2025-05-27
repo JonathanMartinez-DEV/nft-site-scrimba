@@ -6,7 +6,7 @@ body {
 
 header,
 section {
-  padding: 45px 0;
+  padding: 2.875em 0;
 }
 
 p {
@@ -71,12 +71,15 @@ a:active {
 /* button links */
 
 .btn {
+  font-size: 1.125em;
   display: inline-block;
-  padding: 10px 19px;
+  padding: 0.5em 1em;
   border-radius: 4.6px;
   font-weight: 500;
   color: #5f29a3;
   text-decoration: none;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
 }
 
 .buy-nfts {
@@ -126,7 +129,7 @@ a:active {
 /* footer */
 
 footer {
-  padding: 6px 0;
+  padding: 0.375em 0;
   text-align: center;
   color: #5f29a3;
 }
