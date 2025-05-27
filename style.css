@@ -25,7 +25,7 @@ header {
 }
 
 h1,
-.sub-heading {
+.subheading {
   margin: 0;
 }
 
@@ -34,14 +34,15 @@ h1 {
   font-size: 2.25rem;
 }
 
-.sub-heading {
+.subheading {
   color: #d0aaff;
   font-size: 1.25rem;
+  display: block;
 }
 
 /* First section */
 
-.sneakers-img {
+.main-img {
   width: 100%;
 }
 
@@ -67,7 +68,7 @@ a:active {
 
 /* button links */
 
-.btn-link {
+.btn {
   display: inline-block;
   padding: 10px 19px;
   border-radius: 4.6px;
@@ -81,8 +82,8 @@ a:active {
   color: whitesmoke;
 }
 
-.btn-link:hover,
-.btn-link:active {
+.btn:hover,
+.btn:active {
   background-color: #f3e885;
   color: #2b283a;
 }
@@ -102,9 +103,9 @@ a:active {
   margin: 0 auto;
 }
 
-/* second section */
+/* section two */
 
-.second-section {
+.section-two {
   background-color: #5f29a3;
   color: whitesmoke;
 }
@@ -114,7 +115,7 @@ a:active {
   justify-content: space-between;
 }
 
-.section-two-img {
+.feature-img {
   width: 300px;
   border-radius: 3px;
 }
