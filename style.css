@@ -44,6 +44,22 @@ h3 {
   display: block;
 }
 
+/* Navigation */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0.85em 0;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 /* First section */
 
 .main-img {
@@ -148,6 +164,20 @@ footer {
   }
 }
 
+@media (max-width: 767px) {
+  nav {
+    margin-top: 1.5em;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  li:not(:last-child) {
+    border-bottom: 1px solid #a190b6;
+  }
+}
+
 @media (min-width: 768px) {
   header,
   section {
@@ -168,5 +198,19 @@ footer {
 
   .subheading {
     font-size: 1.25rem;
+  }
+
+  header .container,
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    margin-left: 1.25em;
+  }
+
+  header .container {
+    justify-content: space-between;
+    align-items: center;
   }
 }
