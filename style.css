@@ -118,12 +118,12 @@ a:active {
 
 .img-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .feature-img {
-  width: 48.8%;
   border-radius: 4.6px;
+  margin-bottom: 1em;
 }
 
 /* footer */
@@ -132,4 +132,16 @@ footer {
   padding: 0.375em 0;
   text-align: center;
   color: #5f29a3;
+}
+
+/* Media Queries */
+
+@media (min-width: 480px) {
+  .img-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .feature-img {
+    width: 48.8%;
+  }
 }
