@@ -6,7 +6,7 @@ body {
 
 header,
 section {
-  padding: 2.875em 0;
+  padding: 1.25em 0;
 }
 
 p {
@@ -139,5 +139,12 @@ footer {
   }
   .feature-img {
     width: 48.8%;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  section {
+    padding: 2.875em 0;
   }
 }
